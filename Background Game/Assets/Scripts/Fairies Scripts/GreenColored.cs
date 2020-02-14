@@ -7,7 +7,7 @@ public class GreenColored : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "PJ")
+        if (collision.gameObject.tag == "PLayer")
         {
             Animator animator = GetComponent<Animator>();
             animator.SetTrigger("Green");

@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class YellowColored : MonoBehaviour
 {
+    
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+        
+    //}
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "PJ")
+        if (collision.gameObject.tag == "Player")
         {
             Animator animator = GetComponent<Animator>();
             animator.SetTrigger("Yellow");
-            //animator.Play("Colored Yellow");
             Destroy(gameObject);
         }
     }
+
+
 }

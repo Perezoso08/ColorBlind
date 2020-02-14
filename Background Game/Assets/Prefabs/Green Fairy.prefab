@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4779435849209552704}
   - component: {fileID: 4779435850230155771}
   - component: {fileID: 4779435850230155772}
+  - component: {fileID: 1572631123}
   m_Layer: 0
   m_Name: Green Fairy
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1282011390988070067}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.421, y: -1.668, z: 0}
-  m_LocalScale: {x: 0.075768344, y: 0.075768344, z: 0.075768344}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -48,6 +49,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -71,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1901623697
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3532afd51646c2f4ebece4d90ef04d79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -149,3 +151,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.55, y: 6.26}
   m_EdgeRadius: 0
+--- !u!114 &1572631123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282011390988070067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743e1a7fb85ede247b8b4a33d65957ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -7,6 +7,8 @@ public class Play : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level 1");
+        Debug.Log("T");
+        //GetComponentInParent<Animator>().SetTrigger("PushPlay");
+        SceneManager.LoadScene(2);
     }
 }
