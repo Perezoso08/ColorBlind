@@ -200,7 +200,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 12
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -224,7 +224,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284583443}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -77.934875, y: -42.11333, z: -166.86719}
+  m_LocalPosition: {x: -73.29052, y: -42.14216, z: -166.86719}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
@@ -327,7 +327,7 @@ PrefabInstance:
     - target: {fileID: 3427397508690895317, guid: fe4272766769e9748932059e359cd45d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3427397508690895317, guid: fe4272766769e9748932059e359cd45d,
         type: 3}
@@ -512,7 +512,7 @@ PrefabInstance:
     - target: {fileID: 7909297815046454519, guid: 103373a5cef8ac8458ef14bae2337c44,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7909297815046454519, guid: 103373a5cef8ac8458ef14bae2337c44,
         type: 3}
@@ -577,6 +577,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 730037070}
     m_Modifications:
+    - target: {fileID: 864436846, guid: 2d8f73f2039bab8468efe571973e4f68, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 864436846, guid: 2d8f73f2039bab8468efe571973e4f68, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: d0056c69a7fd25f439cdb7b26ed3392a, type: 2}
+    - target: {fileID: 864436846, guid: 2d8f73f2039bab8468efe571973e4f68, type: 3}
+      propertyPath: m_UsedByComposite
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 864436846, guid: 2d8f73f2039bab8468efe571973e4f68, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 864436846, guid: 2d8f73f2039bab8468efe571973e4f68, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2432427111507717064, guid: 2d8f73f2039bab8468efe571973e4f68,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -922,6 +942,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8615062374554967724, guid: 2b3722c019159aa4e9c2787aa98fc295,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8615062374609355744, guid: 2b3722c019159aa4e9c2787aa98fc295,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -980,6 +1005,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1553721280}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1924599668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3508105490747892463, guid: 29e18f3e29e990c4391f5b98475d6238,
+    type: 3}
+  m_PrefabInstance: {fileID: 3508105489376643516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1924599672
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924599668}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: d0056c69a7fd25f439cdb7b26ed3392a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &2017744448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2994466947005552634, guid: 9be371e55cbad3e4183977e7ed9f9955,
@@ -1036,7 +1088,7 @@ PrefabInstance:
     - target: {fileID: 2994466947005552634, guid: 9be371e55cbad3e4183977e7ed9f9955,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2994466947005552634, guid: 9be371e55cbad3e4183977e7ed9f9955,
         type: 3}
@@ -1104,7 +1156,7 @@ MonoBehaviour:
   m_BoundingVolume: {fileID: 0}
   m_BoundingShape2D: {fileID: 864436846}
   m_ConfineScreenEdges: 1
-  m_Damping: 0
+  m_Damping: 0.3
 --- !u!114 &2129962347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,7 +1179,7 @@ MonoBehaviour:
   m_Follow: {fileID: 312298405}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 8
+    OrthographicSize: 12
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
